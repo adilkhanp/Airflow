@@ -1,0 +1,23 @@
+[project]
+name = "airflow"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "adilkhan pattan", email = "adilkhan.p1993@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "apache-airflow>=3.3.1",
+    "boto3>=1.43.92",
+    "oracledb>=26.0.0",
+    "pandas>=2.3.3",
+    "sqlalchemy>=2.0.52",
+]
+
+[project.scripts]
+airflow = "airflow:main"
+
+[build-system]
+requires = ["uv_build>=0.12.9,<0.13.0"]
+build-backend = "uv_build"

@@ -1,0 +1,21 @@
+# Environment variables and secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Airflow
+logs/
+airflow.db
+airflow.cfg
+
+# VS Code (optional)
+.vscode/
+
+# OS files
+.DS_Store
